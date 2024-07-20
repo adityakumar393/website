@@ -4,7 +4,7 @@ $visitor_email= $_POST['email'];
 $subject= $_POST['subject'];
 $message= $_POST['message'];
 
-$email_from ='https://adityakumar393.github.io/website/Contact.html'; 
+$email_from ='https://adityakumar393.github.io/website/';
 $email_subject = 'New Form Submission';
 $email_body = "User Name: $name.\n".
                 "User Email: $visitor_email.\n".
